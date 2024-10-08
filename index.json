@@ -1,0 +1,131 @@
+{
+    "metadata": {
+      "version": "2.0"
+    },
+    "contentContainerWidth": "wide",
+    "content": [
+      {
+        "elementType": "hero",
+        "height": "fluid",
+        "contentContainerWidth": "full",
+        "backgroundImage": {
+          "url": imageURL,
+          "overlayColor": "rgba(0, 0, 0, 0.25)",
+          "overlayType": "solid"
+        },
+        "responsiveVisibility": {
+          "xsmall": False,
+          "small": False,
+          "medium": False
+        },
+        "content": [
+          {
+            "elementType": "heroHeading",
+            "heading": greeting,
+            "fontWeight": "bold",
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "40px",
+            "textAlignment": "left",
+            "marginTop": "12rem",
+            "marginBottom": "0rem",
+            "marginLeft": "15px"
+          },
+          {
+            "elementType": "heroSubheading",
+            "subheading": current_date,
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "25px",
+            "textAlignment": "left",
+            "marginTop": "0rem",
+            "marginBottom": "10px",
+            "marginLeft": "15px"
+          }
+        ]
+      },
+      {
+        "elementType": "hero",
+        "height": "fluid",
+        "contentContainerWidth": "full",
+        "backgroundImage": {
+          "url": imageURL,
+          "overlayColor": "rgba(0, 0, 0, 0.25)",
+          "overlayType": "solid"
+
+        },
+        "responsiveVisibility": {
+          "xsmall": False,
+          "small": False,
+          "large": False,
+          "xlarge": False
+        },
+        "content": [
+          {
+            "elementType": "heroHeading",
+            "heading": greeting,
+            "fontWeight": "bold",
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "40px",
+            "textAlignment": "left",
+            "marginTop": "7rem",
+            "marginBottom": "0rem",
+            "marginLeft": "15px"
+          },
+          {
+            "elementType": "heroSubheading",
+            "subheading": current_date,
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "25px",
+            "textAlignment": "left",
+            "marginTop": "0rem",
+            "marginBottom": "10px",
+            "marginLeft": "15px"
+          }
+        ]
+      },
+      {
+        "elementType": "hero",
+        "height": "fluid",
+        "contentContainerWidth": "full",
+        "backgroundImage": {
+          "url": imageURL,
+          "overlayColor": "rgba(0, 0, 0, 0.25)",
+          "overlayType": "solid"
+
+        },
+        "responsiveVisibility": {
+          "medium": False,
+          "large": False,
+          "xlarge": False
+        },
+        "content": [
+          {
+            "elementType": "heroHeading",
+            "heading": greeting,
+            "fontWeight": "bold",
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "30px",
+            "textAlignment": "left",
+            "marginTop": "5rem",
+            "marginBottom": "0rem",
+            "marginLeft": "15px"
+          },
+          {
+            "elementType": "heroSubheading",
+            "subheading": current_date,
+            "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "textColor": "#ffffff",
+            "fontSize": "15px",
+            "textAlignment": "left",
+            "marginTop": "0rem",
+            "marginBottom": "10px",
+            "marginLeft": "15px"
+          }
+        ]
+      }
+    ]
+  }
