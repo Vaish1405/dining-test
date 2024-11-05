@@ -1,129 +1,201 @@
 {
-  "metadata": {
-      "version": "2.0"
-  },
-  "contentContainerWidth": "wide",
-  "content": [
+  "elementType": "statusList",
+  "listStyle": "unpadded",
+  "marginBottom": "none",
+  "noItemsMessage": false,
+  "showAccessoryIcons": false,
+  "items": [
       {
-          "elementType": "hero",
-          "height": "fluid",
-          "contentContainerWidth": "full",
-          "backgroundImage": {
-              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
-              "overlayColor": "rgba(0, 0, 0, 0.25)",
-              "overlayType": "solid"
-          },
-          "responsiveVisibility": {
-              "xsmall": false,
-              "small": false,
-              "medium": false
-          },
-          "content": [
-              {
-                  "elementType": "heroHeading",
-                  "heading": "Good Morning",
-                  "fontWeight": "bold",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "40px",
-                  "textAlignment": "left",
-                  "marginTop": "12rem",
-                  "marginBottom": "0rem",
-                  "marginLeft": "15px"
+          "accessoryButton": {
+              "elementType": "linkButton",
+              "borderColor": "theme:form_border_color",
+              "borderStyle": "solid",
+              "icon": "directions",
+              "iconColor": "#000000",
+              "iconPosition": "iconOnly",
+              "size": "normal",
+              "title": "Button",
+              "url": {
+                  "linkType": "external",
+                  "external": "https://3dmap.csun.edu"
               },
-              {
-                  "elementType": "heroSubheading",
-                  "subheading": "Thursday, November 7th, 2024",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "25px",
-                  "textAlignment": "left",
-                  "marginTop": "0rem",
-                  "marginBottom": "10px",
-                  "marginLeft": "15px"
-              }
-          ]
+              "uuid": "248e12d9-ff5e-4b76-9455-b524601f0ac0"
+          },
+          "image": {
+              "backgroundColor": "#1f9245",
+              "borderRadius": "full",
+              "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/e8a458ed-6368-4711-8163-ed69ca9783a1_image_url_be468e972e22b0f3516d24e78cc38e4b/1024px-HD_transparent_picture.png?_kgourl_is_resource=1"
+          },
+          "imageHeight": "18px",
+          "imageHorizontalPosition": "left",
+          "imageMargin": "xloose",
+          "imageStyle": "thumbnailSmall",
+          "imageVerticalPosition": "middle",
+          "imageWidth": "18px",
+          "status": "available",
+          "statusDescriptor": "Closes at 10:00pm.",
+          "statusText": "<strong>Open.</strong>",
+          "title": "El Pollo Loco",
+          "titleFontSize": "xxlarge",
+          "titleFontWeight": "bold",
+          "url": {
+              "targetNewWindow": true,
+              "linkType": "external",
+              "external": "https://www.csun.edu"
+          },
+          "uuid": "e8a458ed-6368-4711-8163-ed69ca9783a1"
       },
       {
-          "elementType": "hero",
-          "height": "fluid",
-          "contentContainerWidth": "full",
-          "backgroundImage": {
-              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
-              "overlayColor": "rgba(0, 0, 0, 0.25)",
-              "overlayType": "solid"
-          },
-          "responsiveVisibility": {
-              "xsmall": false,
-              "small": false,
-              "large": false,
-              "xlarge": false
-          },
-          "content": [
-              {
-                  "elementType": "heroHeading",
-                  "heading": "Good Morning",
-                  "fontWeight": "bold",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "40px",
-                  "textAlignment": "left",
-                  "marginTop": "7rem",
-                  "marginBottom": "0rem",
-                  "marginLeft": "15px"
+          "accessoryButton": {
+              "elementType": "linkButton",
+              "borderColor": "theme:form_border_color",
+              "borderStyle": "solid",
+              "icon": "directions",
+              "iconColor": "#000000",
+              "iconPosition": "iconOnly",
+              "size": "normal",
+              "title": "Button",
+              "url": {
+                  "linkType": "external",
+                  "external": "https://3dmap.csun.edu"
               },
-              {
-                  "elementType": "heroSubheading",
-                  "subheading": "Thursday, November 7th, 2024",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "25px",
-                  "textAlignment": "left",
-                  "marginTop": "0rem",
-                  "marginBottom": "10px",
-                  "marginLeft": "15px"
-              }
-          ]
+              "uuid": "0ed3bea6-e21a-43d0-b191-271c12e1584c"
+          },
+          "image": {
+              "backgroundColor": "#1f9245",
+              "borderRadius": "full",
+              "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/00eccc01-0985-41b9-8cfd-b285d0e378f8_image_url_be468e972e22b0f3516d24e78cc38e4b/1024px-HD_transparent_picture.png?_kgourl_is_resource=1"
+          },
+          "imageHeight": "18px",
+          "imageHorizontalPosition": "left",
+          "imageMargin": "xloose",
+          "imageStyle": "thumbnailSmall",
+          "imageVerticalPosition": "middle",
+          "imageWidth": "18px",
+          "status": "available",
+          "statusDescriptor": "Closes at 10:00pm.",
+          "statusText": "<strong>Open.</strong>",
+          "title": "Fry Shack",
+          "titleFontSize": "xxlarge",
+          "titleFontWeight": "bold",
+          "url": {
+              "targetNewWindow": true,
+              "linkType": "external",
+              "external": "https://www.csun.edu"
+          },
+          "uuid": "00eccc01-0985-41b9-8cfd-b285d0e378f8"
       },
       {
-          "elementType": "hero",
-          "height": "fluid",
-          "contentContainerWidth": "full",
-          "backgroundImage": {
-              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
-              "overlayColor": "rgba(0, 0, 0, 0.25)",
-              "overlayType": "solid"
-          },
-          "responsiveVisibility": {
-              "medium": false,
-              "large": false,
-              "xlarge": false
-          },
-          "content": [
-              {
-                  "elementType": "heroHeading",
-                  "heading": "Good Morning",
-                  "fontWeight": "bold",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "30px",
-                  "textAlignment": "left",
-                  "marginTop": "5rem",
-                  "marginBottom": "0rem",
-                  "marginLeft": "15px"
+          "accessoryButton": {
+              "elementType": "linkButton",
+              "borderColor": "theme:form_border_color",
+              "borderStyle": "solid",
+              "icon": "directions",
+              "iconColor": "#000000",
+              "iconPosition": "iconOnly",
+              "size": "normal",
+              "title": "Button",
+              "url": {
+                  "module": [],
+                  "linkType": "module"
               },
-              {
-                  "elementType": "heroSubheading",
-                  "subheading": "Thursday, November 7th, 2024",
-                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
-                  "textColor": "#ffffff",
-                  "fontSize": "15px",
-                  "textAlignment": "left",
-                  "marginTop": "0rem",
-                  "marginBottom": "10px",
-                  "marginLeft": "15px"
-              }
-          ]
+              "uuid": "46e75336-674f-4e64-9816-662472bb2420"
+          },
+          "image": {
+              "backgroundColor": "#d22030",
+              "borderRadius": "full",
+              "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/2e9a5414-4649-44a0-9ff8-ce8c20830941_image_url_c5136bd542370ae850d80663c8779a19/Group 1984.png?_kgourl_is_resource=1"
+          },
+          "imageHeight": "18px",
+          "imageHorizontalPosition": "left",
+          "imageMargin": "xloose",
+          "imageStyle": "thumbnailSmall",
+          "imageVerticalPosition": "middle",
+          "imageWidth": "18px",
+          "status": "unavailable",
+          "statusDescriptor": "Opens at 7:00am.",
+          "statusText": "<strong>Closed.</strong>",
+          "title": "Matador Mercado",
+          "titleFontSize": "xxlarge",
+          "titleFontWeight": "bold",
+          "uuid": "2e9a5414-4649-44a0-9ff8-ce8c20830941"
+      },
+      {
+          "accessoryButton": {
+              "elementType": "linkButton",
+              "borderColor": "theme:form_border_color",
+              "borderStyle": "solid",
+              "icon": "directions",
+              "iconColor": "#000000",
+              "iconPosition": "iconOnly",
+              "size": "normal",
+              "title": "Button",
+              "url": {
+                  "linkType": "external",
+                  "external": "https://3dmap.csun.edu"
+              },
+              "uuid": "af8fb059-8053-4ef4-8fba-db24cb6a2e1e"
+          },
+          "image": {
+              "backgroundColor": "#1f9245",
+              "borderRadius": "full",
+              "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/4281ee49-6558-4b0f-974a-c3ea5ab4f608_image_url_be468e972e22b0f3516d24e78cc38e4b/1024px-HD_transparent_picture.png?_kgourl_is_resource=1"
+          },
+          "imageHeight": "18px",
+          "imageHorizontalPosition": "left",
+          "imageMargin": "xloose",
+          "imageStyle": "thumbnailSmall",
+          "imageVerticalPosition": "middle",
+          "imageWidth": "18px",
+          "status": "available",
+          "statusDescriptor": "Closes at 7:00pm.",
+          "statusText": "<strong>Open.</strong>",
+          "title": "Panda Express",
+          "titleFontSize": "xxlarge",
+          "titleFontWeight": "bold",
+          "url": {
+              "targetNewWindow": true,
+              "linkType": "external",
+              "external": "https://www.csun.edu"
+          },
+          "uuid": "4281ee49-6558-4b0f-974a-c3ea5ab4f608"
+      },
+      {
+          "accessoryButton": {
+              "elementType": "linkButton",
+              "borderStyle": "solid",
+              "icon": "directions",
+              "iconPosition": "iconOnly",
+              "size": "normal",
+              "title": "Button",
+              "url": {
+                  "module": [],
+                  "linkType": "module"
+              },
+              "uuid": "3708d772-5c10-48fa-b97d-a1e52388d882"
+          },
+          "image": {
+              "backgroundColor": "#d22030",
+              "borderRadius": "full",
+              "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/8d418270-f32b-4b73-b4ed-b25ee47977ac_image_url_8bb18870a8043f15629f8cef8f4ecffe/Group 1981 (2).png?_kgourl_is_resource=1"
+          },
+          "imageHeight": "18px",
+          "imageHorizontalPosition": "left",
+          "imageMargin": "xloose",
+          "imageStyle": "thumbnailSmall",
+          "imageVerticalPosition": "middle",
+          "imageWidth": "18px",
+          "status": "unavailable",
+          "statusDescriptor": "until 10:00 PM",
+          "statusText": "<strong>Closed</strong>",
+          "title": "Matador Mercado",
+          "titleFontSize": "xxlarge",
+          "titleFontWeight": "bold",
+          "visibility": {
+              "personas": []
+          },
+          "uuid": "8d418270-f32b-4b73-b4ed-b25ee47977ac"
       }
-  ]
+  ],
+  "uuid": "cfebb675-1cf1-491c-ab01-20649d8e9238"
 }
