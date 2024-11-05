@@ -1,6 +1,129 @@
 {
-  "name": "John Doe",
-  "age": 30,
-  "email": "john.doe@example.com",
-  "isActive": true
+  "metadata": {
+      "version": "2.0"
+  },
+  "contentContainerWidth": "wide",
+  "content": [
+      {
+          "elementType": "hero",
+          "height": "fluid",
+          "contentContainerWidth": "full",
+          "backgroundImage": {
+              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
+              "overlayColor": "rgba(0, 0, 0, 0.25)",
+              "overlayType": "solid"
+          },
+          "responsiveVisibility": {
+              "xsmall": false,
+              "small": false,
+              "medium": false
+          },
+          "content": [
+              {
+                  "elementType": "heroHeading",
+                  "heading": "Good Morning",
+                  "fontWeight": "bold",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "40px",
+                  "textAlignment": "left",
+                  "marginTop": "12rem",
+                  "marginBottom": "0rem",
+                  "marginLeft": "15px"
+              },
+              {
+                  "elementType": "heroSubheading",
+                  "subheading": "Tuesday, November 5th, 2024",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "25px",
+                  "textAlignment": "left",
+                  "marginTop": "0rem",
+                  "marginBottom": "10px",
+                  "marginLeft": "15px"
+              }
+          ]
+      },
+      {
+          "elementType": "hero",
+          "height": "fluid",
+          "contentContainerWidth": "full",
+          "backgroundImage": {
+              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
+              "overlayColor": "rgba(0, 0, 0, 0.25)",
+              "overlayType": "solid"
+          },
+          "responsiveVisibility": {
+              "xsmall": false,
+              "small": false,
+              "large": false,
+              "xlarge": false
+          },
+          "content": [
+              {
+                  "elementType": "heroHeading",
+                  "heading": "Good Morning",
+                  "fontWeight": "bold",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "40px",
+                  "textAlignment": "left",
+                  "marginTop": "7rem",
+                  "marginBottom": "0rem",
+                  "marginLeft": "15px"
+              },
+              {
+                  "elementType": "heroSubheading",
+                  "subheading": "Tuesday, November 5th, 2024",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "25px",
+                  "textAlignment": "left",
+                  "marginTop": "0rem",
+                  "marginBottom": "10px",
+                  "marginLeft": "15px"
+              }
+          ]
+      },
+      {
+          "elementType": "hero",
+          "height": "fluid",
+          "contentContainerWidth": "full",
+          "backgroundImage": {
+              "url": "https://csun-it.github.io/mobile-redesign/images/morningBg.png",
+              "overlayColor": "rgba(0, 0, 0, 0.25)",
+              "overlayType": "solid"
+          },
+          "responsiveVisibility": {
+              "medium": false,
+              "large": false,
+              "xlarge": false
+          },
+          "content": [
+              {
+                  "elementType": "heroHeading",
+                  "heading": "Good Morning",
+                  "fontWeight": "bold",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "30px",
+                  "textAlignment": "left",
+                  "marginTop": "5rem",
+                  "marginBottom": "0rem",
+                  "marginLeft": "15px"
+              },
+              {
+                  "elementType": "heroSubheading",
+                  "subheading": "Tuesday, November 5th, 2024",
+                  "fontFamily": "Museo-sans, Helvetica Neue, Helvetica, Arial, sans-serif",
+                  "textColor": "#ffffff",
+                  "fontSize": "15px",
+                  "textAlignment": "left",
+                  "marginTop": "0rem",
+                  "marginBottom": "10px",
+                  "marginLeft": "15px"
+              }
+          ]
+      }
+  ]
 }
