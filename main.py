@@ -8,7 +8,7 @@ modo_json = {
   "content": [
     {
       "elementType": "statusList",
-      "listStyle": "unpadded",
+      "listStyle": "grouped",
       "marginBottom": "none",
       "noItemsMessage": False,
       "showAccessoryIcons": False,
@@ -84,7 +84,6 @@ for location in body['locations']:
                   "linkType": "external",
                   "external": menu_link
               },
-              "uuid": "e8a458ed-6368-4711-8163-ed69ca9783a1"
           }
     
     modo_json['content'][0]['items'].append(item_json)
