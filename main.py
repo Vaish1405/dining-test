@@ -41,7 +41,7 @@ for location in body['locations']:
     elif label == "closed":
         status = 'unavailable'
     status_message = location['status']['message']
-    direction_link = "https://maps.google.com/?daddr={location['address']['lat']},{location['address']['lon']}&travelmode=walking"
+    direction_link = f"https://maps.google.com/?daddr={location['address']['lat']},{location['address']['lon']}&travelmode=walking"
     
     # each item will be appended to the items in modo_json
     item_json = {
