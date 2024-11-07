@@ -889,46 +889,6 @@
                         "external": ""
                     },
                     "uuid": "e8a458ed-6368-4711-8163-ed69ca9783a1"
-                },
-                {
-                    "accessoryButton": {
-                        "elementType": "linkButton",
-                        "borderColor": "theme:form_border_color",
-                        "borderStyle": "solid",
-                        "icon": "directions",
-                        "iconColor": "#000000",
-                        "iconPosition": "iconOnly",
-                        "size": "normal",
-                        "title": "Button",
-                        "url": {
-                            "linkType": "external",
-                            "external": "https://maps.google.com/?daddr=34.237317240439076,-118.52843831145353&travelmode=walking"
-                        },
-                        "uuid": "248e12d9-ff5e-4b76-9455-b524601f0ac0"
-                    },
-                    "image": {
-                        "backgroundColor": "#1f9245",
-                        "borderRadius": "full",
-                        "url": "kgo://asset_cache/resource_storage/proxy/modulepage/mobile_redesign_student-_/id_dining_copy2/e8a458ed-6368-4711-8163-ed69ca9783a1_image_url_be468e972e22b0f3516d24e78cc38e4b/1024px-HD_transparent_picture.png?_kgourl_is_resource=1"
-                    },
-                    "imageHeight": "18px",
-                    "imageHorizontalPosition": "left",
-                    "imageMargin": "xloose",
-                    "imageStyle": "thumbnailSmall",
-                    "imageVerticalPosition": "middle",
-                    "imageWidth": "18px",
-                    "status": "available",
-                    "statusDescriptor": "Open. Closes at 8:00pm.",
-                    "statusText": "<strong>open</strong>",
-                    "title": "Matador Mercado at Campus Store Complex",
-                    "titleFontSize": "xxlarge",
-                    "titleFontWeight": "bold",
-                    "url": {
-                        "targetNewWindow": true,
-                        "linkType": "external",
-                        "external": ""
-                    },
-                    "uuid": "e8a458ed-6368-4711-8163-ed69ca9783a1"
                 }
             ]
         }
